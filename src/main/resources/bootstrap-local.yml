@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      name: chat
+      headers:
+        application-name: chat
+        application-password: "asdo;gri!@#hasdo;ifh!@#"
